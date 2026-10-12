@@ -1,0 +1,59 @@
+{
+  "vehicles": [
+    {
+      "type": "scooter",
+      "name": "ВышКат Lite",
+      "inventory_number": 101,
+      "simplicity": 8,
+      "wear_percent": 10,
+      "daily_energy_kwh": 0.45
+    },
+    {
+      "type": "scooter",
+      "name": "ВышКат Pro",
+      "inventory_number": 102,
+      "simplicity": 5,
+      "wear_percent": 20,
+      "daily_energy_kwh": 0.6
+    },
+    {
+      "type": "bicycle",
+      "name": "Городской велосипед",
+      "inventory_number": 201,
+      "simplicity": 9,
+      "wear_percent": 15
+    },
+    {
+      "type": "ebike",
+      "name": "Электровел Cargo",
+      "inventory_number": 301,
+      "simplicity": 4,
+      "wear_percent": 55,
+      "daily_energy_kwh": 0.9
+    },
+    {
+      "type": "ebike",
+      "name": "Электровел City",
+      "inventory_number": 302,
+      "simplicity": 6,
+      "wear_percent": 30,
+      "daily_energy_kwh": 0.75
+    }
+  ],
+  "things": [
+    { "type": "helmet", "name": "Шлем M", "inventory_number": 501 },
+    { "type": "helmet", "name": "Шлем L", "inventory_number": 502 },
+    {
+      "type": "dock",
+      "name": "Док-станция у Покровки",
+      "inventory_number": 601,
+      "daily_energy_kwh": 1.2
+    },
+    {
+      "type": "cabinet",
+      "name": "Зарядный шкаф ФКН",
+      "inventory_number": 701,
+      "daily_energy_kwh": 3.5
+    }
+  ]
+}
